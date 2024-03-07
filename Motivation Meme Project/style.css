@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    position: relative;
+}
+.pic > img{
+    margin-top: 200px;
+    height: 720px;
+    border: 10px solid white;
+    border-color: white;
+}
+.pic > div{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.pic > div > p{
+    margin-top: -50px;
+    font-size: larger;
+}
